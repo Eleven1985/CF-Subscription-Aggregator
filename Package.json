@@ -1,0 +1,22 @@
+{
+  "name": "cf-subscription-aggregator",
+  "version": "1.0.0",
+  "description": "A Cloudflare Worker for aggregating multiple subscription links",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "subscription",
+    "aggregator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
